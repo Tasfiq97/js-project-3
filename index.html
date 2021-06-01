@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="expense.css">
+</head>
+<body>
+    <div class="container">
+<div class="head">
+    <h1>expense app</h1>
+</div>
+
+
+<div id="messages">
+  
+</div>
+<div class="input">
+    <div class="row">
+        <div class="col  new-input">
+          <input id="input-name" type="text" class="form-control" placeholder="Full name" >
+        </div>
+        
+      </div>
+     
+      <div class="mb-3 new-input">
+        
+        <input   id="input-date" 
+          type="date" class="form-control"  >
+        <input    id="input-amount"
+         type="number" class="form-control"  placeholder="amount">
+      </div>
+      
+</div>
+<div class="btns">
+  <button id="add-btn" type="button" class="btn btn-pro btn-success">Proceed</button>
+  <div id="saveAmount" class="amount">
+   
+  </div>
+</div>
+<div class="table-show">
+  <table id="table-input" class="table">
+    <thead>
+      <tr>
+       
+        <th scope="col">Full Name</th>
+        
+        <th scope="col">Date</th>
+        <th scope="col">amount</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr id="table-out" >
+        
+        <td id="table-in"></td>
+        <td id="table-date"></td>
+        <td id="table-amount"></td>
+        <td   id="remove-btn">  </td>
+      
+      </tr>
+      
+    </tbody>
+  </table>
+</div>
+
+    </div>
+
+
+
+    <script src="expense.js"></script>
+    
+</body>
+</html>

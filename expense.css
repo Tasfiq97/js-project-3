@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #78e08f;
+  font-family: "Mate SC", serif;
+  font-size: 62.5%;
+}
+
+.container h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.container h3 {
+  margin-top: 5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.container .input {
+  margin-top: 4rem;
+}
+
+.container .new-input {
+  margin-top: 1rem;
+}
+
+.container .new-input input {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.container .table-show {
+  margin-top: 6rem;
+  font-size: 1.3rem;
+}
+
+.container .table {
+  font-size: 1.3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.container #messages {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.container .btn-pro {
+  font-size: 1.4rem;
+}
+
+.container .btns {
+  display: -ms-grid;
+  display: grid;
+}
+
+.container .btns .amount h3 {
+  font-size: 2rem;
+  background-color: #ff4757;
+  padding: 1rem 1rem;
+  color: white;
+  font-weight: bolder;
+}
+
+.bttns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 2rem;
+  padding: 1rem 1rem;
+  background: #39f1d3;
+}
+/*# sourceMappingURL=expense.css.map */
